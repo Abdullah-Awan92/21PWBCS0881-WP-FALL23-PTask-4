@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html >
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>AK WATCHES</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+.cl{
+background-color: rgb(20, 0, 0);
+text-align: end;
+padding: 5px;
+}
+.head{
+    color: white;
+    text-align: center;
+    font-family:Mistral;
+}
+.txt{
+        float: left;
+        margin: 4px;
+        height: 28px;
+        border-radius: 5px;
+        width: 250px; 
+        }
+
+.but{
+    background-color: #646363;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.but:hover{
+    transform: scale(0.9);
+}
+.imgg{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+.navb{
+    padding: 5px;
+    background-color: rgb(92, 40, 40);
+}
+.main{
+    text-align: center;
+}
+
+.anav{
+font-size: 20px;
+color: white;
+margin: 40px;
+padding: 10px;
+}
+#card{
+    float: left;
+    font-size: 18px;
+    margin: 9px;
+    color: #e7dddd;
+}
+#card2{
+    color: #e4d9d9;
+    font-size: 20px;
+    margin: 10px
+}
+nav a:hover{
+    color: #c76576;
+    transition: .4s;
+}
+.heading{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.welc{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(250, 242, 242);
+    padding: 10px;   
+}
+
+.banner{
+    width: 100%;
+    
+background-image: url(homepage-banner.jpg);
+background-size:cover ;
+background-position:69% ;
+border-radius: 10px;
+margin: 20px;
+
+
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    padding: 200px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.banner-text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-title {
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #682525;
+    color: white;border-radius: 30px;
+}
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;    
+    padding: 20px;
+    margin: 10px 0;
+}
+.product-card img {
+    max-width: 100%;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+}
+.price{
+font-size: 28px;
+}
+.non{
+    text-align: center;
+    background-color: #682525;
+    color: rgb(255, 255, 255);
+    padding:10px;
+    margin: 20px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#about{
+    flex: 1;
+    padding: 15px;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.aboutimg{
+    float: right;
+}
+.para{
+    font-size: 20px;
+}
+
+.conttitle{
+    background-color: #682525;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact{
+  
+    padding: 19px;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+.conh{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+background-color: #f1efef;
+}
+.mail{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+ 
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 220px;
+background: #240a0a;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    justify-content: center;
+    color: white;
+}
+.name1{
+padding-top: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navf{
+    margin: 60px;
+}
+.name2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 80px;
+}
+#fonts{
+    color: #e7dddd;
+}
+.last{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color: #240a0a;
+    text-align: center;
+    color: white;
+}
+</style>
+
+</head>
+
+<body> 
+    <div class="cl">       
+
+    <i class="fa-solid fa-magnifying-glass" id="card"></i>
+    <input class="txt" type="text" placeholder="Search...">
+    <i id="fonts" class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-regular fa-user"  id="card2"></i>
+    <button class="but" type="button">Log in</button>
+    <button class="but"  type="button">Sign up</button>
+</div>
+    
+<div>
+    <img class="imgg" src="logo_1.jpg" alt="logo" width="250px">
+</div>
+<div class="navb">
+<nav class="main">
+                    <a class="anav" href="#hero">Home</a>
+                    <a class="anav" href="#products">Products</a>
+                    <a class="anav" href="#about">About us</a>
+                    <a class="anav" href="#contactus">Contact Us</a>
+</nav>
+    </div>
+    <br>
+    <div class="welc">
+        <h4><b>Welcome to AK Watches!</b></h4>
+        <h5><b>Where you find your the best.</b></h5>
+    </div>
+<div id="hero">
+    <div class="banner">
+        <div class="banner-text">
+    <h3 class="heading"><b>Our Best Selling</b></h3>
+    <h3 class="heading"><b>Grab it!</b></h3>
+    <a class="btn btn-success" href="#watch3">Shop Now</a>
+</div>
+</div>
+</div>
+<div class="container">
+    <div id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <img src="Rado.jpg" class="mx-auto d-block" width="300px">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="w1.jpg" alt="Watch 1" width="300px">
+                    
+                    <h3 class="name">CAPTAIN COOK CHRONOGRAPH AUTOMAITC</h3>
+                    <p class="price">$599</p>
+                    <p class="description">43mm Stainless steel case, black high-tech ceramic inlay on the bezel, silver-to-black gradient dial.</p>
+                    <div>
+                        <a class="btn btn-dark" href="">Add to cart</a>
+                        <a class="btn btn-danger" href="">Buy Now</a>
+                    </div>                
+    </div>
+</div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="w2.jpg" alt="Watch 2" width="300px">
+                    
+                    <h3 class="name">CENTRIX CHRONOGRAPH AUTOMATIC</h3>
+                    <p class="price">$799</p>
+                    <p class="description">Rado’s signature sapphire crystal and high-tech ceramic elements adding scratch-resistant shine</p>
+                    <div>
+                        <a class="btn btn-dark" href="">Add to cart</a>
+                        <a class="btn btn-danger" href="">Buy Now</a>
+                    </div>
+                </div>
+</div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <div id="watch3">
+                    <img src="w3.jpg" alt="Watch 3" width="300px">
+                    <h3 class="name">CAPTAIN COOK HRITHIK SPECIAL EDITION</h3>
+                    <p class="price">$999</p>
+                    <p class="description">New territory in vintage style, With a mix of materials including high-tech ceramic and sapphire crystal</p>
+                <div>
+                    <a class="btn btn-dark" href="">Add to cart</a>
+                    <a class="btn btn-danger" href="">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="container">
+    <img src="rola.jpg" class="mx-auto d-block" width="300px">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="ww4.jpg" alt="Watch 1" width="300px">
+                <h3 class="name"> ROLEX SKY-DWELLERS</h3>
+                <p class="price">$4899</p>
+                <p class="description">Oyster, 42 mm, Oystersteel and white gold. Fluted, bidirectional rotatable Rolex Ring Command</p>
+                <div>
+                    <a class="btn btn-dark" href="">Add to cart</a>
+                    <a class="btn btn-danger" href="">Buy Now</a>
+                </div>                
+</div>
+</div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="w5.jpg" alt="Watch 2" width="300px">
+                <h3 class="name" >ROLEX LADY-DATEJUST </h3>
+                <p class="price">$3569</p>
+                <p class="description">28 mm, Oystersteel, white gold, Set with diamonds.Perpetual, mechanical, self-winding</p>
+                <div>
+                    <a class="btn btn-dark" href="">Add to cart</a>
+                    <a class="btn btn-danger" href="">Buy Now</a>
+                </div>
+            </div>
+</div>
+        <div class="col-md-4">
+            <div class="product-card">
+                <img src="w7.jpg" alt="Watch 3" width="300px" height="380px">
+                <h3 class="name">ROLEX DATEJUST 31 EDITION</h3>
+                <p class="price">$7999</p>
+                <p class="description">Oystersteel, yellow gold, set with diamonds. Waterproof to 100 metres 330 feet. Perpetual, mechanical, self-winding</p>
+            <div>
+                <a class="btn btn-dark" href="">Add to cart</a>
+                <a class="btn btn-danger" href="">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<h3 class="non">About Us </h3>
+<div id="about">
+    <div class="abt">
+    
+</div>
+    <div>
+    <h3 class="name">ESTABLISHMENT</h3>
+    <p class="para"> <img src="abtim.jpg" alt="imga" class="aboutimg">
+        Established in 1999 as a wholesaler of original and replica watches, We launched our online shop AKWATCHES with the aim of
+        selling branded Replica watches at amazing prices. Our policy of holding all items for sale in stock, we can offer best
+        customer service in comparison to our competitors. 
+    </p>  
+    <h3 class="name">STOCK ITEMS</h3>
+        <p class="para">Our stock contain world's most prestigious watch brands, such as 
+        RADO, ROLEX, etc. More brands are loading to display.
+    </p>
+    <H3 class="name">CUSTOMER CARE</H3>
+    <p class="para">
+        We have a professional and committed customer support team who are always there to attend to your doubts and queries regarding a product or purchase. 
+        We welcome your valuable feedback to make shopping a truly memorable experience on watchmarkaz.pk</p>
+        </p>
+    <H3 class="name">Our Mission</H3> 
+<ul class="para">
+        <li>To bring High Street levels of service to the internet.</li> 
+        <li>To make online shopping easy and secure.</li>
+        <li>To not only offer the best prices but also the highest level of quality and customer service.</li>
+        <li>To deliver your purchase within expected time scales.</li>
+    </ul>
+</div>
+</div>
+<hr>
+<br>
+<br>
+
+<div id="contactus">
+<div class="conttitle">
+<h2>CONTACT US </h2>
+</div>
+<h4 class="conh"><b>~ Feel free to reach out to us. We'd love to hear from you!
+    Fill the form so we can get your queries.</b></h4>
+<div class="contactm">
+    <div class="contact">
+<form action="/action_page.php">
+    <div class="mb-3">
+    <label for="text" class="form-label">Name:</label>
+    <input type="text" class="form-control" id="text"  >
+    </div>
+    <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email"  name="email">
+    </div>
+        <div class="mb-3">
+            <label for="text" class="form-label">Subject:</label>
+            <input type="text" class="form-control" id="text"  >
+            </div>
+            <label for="comment">Message:</label>
+        <textarea class="form-control" rows="3" id="comment" name="text" placeholder=""></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</div>
+</div>
+</div>
+</form>
+<br>
+<div class="mail">
+    <h4 ><b>Or you can directly mail us</b></h4>
+    <a href="mailto:adduawan1@gmail.com"><i class="fa-regular fa-envelope fa-5x "></i></a>
+<hr>
+
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                
+                <p class="name1" >Address: Benesisstraße 24-32, 50672 Köln, Germany
+                Phone: +49 221 27098818</p>
+            </div>
+            <div class="col-md-4">
+                <div class="social-icons">
+            <ul class="navf">
+                <h4>Visit Back</h4>
+                    <li><a id="fonts" href="#hero">Home</a></li>
+                    <li><a id="fonts" href="#products">Products</a></li>
+                    <li><a id="fonts" href="#about">About us</a></li>
+                    <li><a id="fonts" href="#contactus">Contact Us</a></li>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social-icons">
+                    <H4 class="name2">Also check our Social Media</H4>
+                    <a href="https://www.facebook.com/abdullah.awan.520562" target="_blank"><i id="fonts" class="fa-brands fa-facebook fa-3x"></i></a>
+                    <a href="https://github.com/Abdullah-Awan92" target="_blank"><i id="fonts" class="fa-brands fa-github fa-3x"></i></a>
+                    <a href="https://www.instagram.com/im._.abdull3._/"target="_blank" ><i id="fonts"  class="fa-brands fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<p class="last">&copy; 2023 AK Watches.com</p>
+</div>
+</body>
+</html>
